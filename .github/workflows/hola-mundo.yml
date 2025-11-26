@@ -1,7 +1,7 @@
 name: Hola Mundo
 on: [push]
 jobs:
-  build:
+  holamundo:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
